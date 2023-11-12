@@ -1,0 +1,17 @@
+@layer nesting.practice {
+    .demo {
+      .triangle, 
+      .square {
+        opacity: .26;
+        filter: blur(26px);
+      }
+    }
+    
+  /*   .demo {
+      & .triangle, 
+      & .square {
+        opacity: .25;
+        filter: blur(25px);
+      }
+    } */
+  }
